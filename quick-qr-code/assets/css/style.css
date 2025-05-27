@@ -1,33 +1,25 @@
-.qqrc-form form {
-    margin-top: 20px;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.qqrc-img {
+    position: fixed;
+    z-index: 9999;
+    width: auto;
 }
 
-.qqrc-form form input[type="text"],
-.qqrc-form form input[type="email"]{
-    height: 25px;
-    border-radius: 5px;
-    border: 2px solid #ccc;
-    padding: 20px 10px;
+.qqrc-img.top_left {
+    top: 10px;
+    left: 10px;
 }
 
-.qqrc-form form input[type="submit"] {
-    height: 40px;
-    border-radius: 5px;
-    border: 2px solid #0073aa;
-    background-color: #0073aa;
-    color: white;
-    cursor: pointer;
+.qqrc-img.top_right {
+    top: 10px;
+    right: 10px;
 }
 
-.qqrc-form form input[type="submit"]:hover {
-    height: 40px;
-    border-radius: 5px;
-    border: 2px solid #0073aa;
-    background-color: #0074aa00;
-    color: #0073aa;
-    cursor: pointer;
+.qqrc-img.bottom_left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.qqrc-img.bottom_right {
+    bottom: 10px;
+    right: 10px;
 }
