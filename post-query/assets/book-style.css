@@ -1,0 +1,43 @@
+/* Plugin: Basic Post Query */
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.book-thumb img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book-title h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.book-author{
+    padding: 2px 7px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+
+.book-rating,
+.book-genre,
+.book-author,
+.book-excerpt {
+    font-size: 14px;
+    margin-top: 8px;
+}
