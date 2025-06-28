@@ -1,5 +1,25 @@
 .qqrc-img {
     position: fixed;
-    bottom: 20px;
-    left: 20px;
+    z-index: 9999;
+    width: auto;
+}
+
+.qqrc-img.top_left {
+    top: 10px;
+    left: 10px;
+}
+
+.qqrc-img.top_right {
+    top: 10px;
+    right: 10px;
+}
+
+.qqrc-img.bottom_left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.qqrc-img.bottom_right {
+    bottom: 10px;
+    right: 10px;
 }
