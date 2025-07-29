@@ -1,0 +1,13 @@
+.red {
+    background-color: red !important;
+    color: white;
+    font-weight: bold;
+}
+
+#greetingBox{
+    background-color: #00ff37;
+}
+
+.greetingBoxBlue {
+    background-color: rgb(0, 17, 255)!important;
+}
